@@ -1,3 +1,5 @@
+This repository contains the implementations of the hard instances designed in our paper [Worst-case Performance of Popular Approximate Nearest Neighbor Search Implementations: Guarantees and Limitations](https://arxiv.org/abs/2310.19126) to appear in NeurIPS 2023
+
 # Data files for the two hard instances we present in our paper
 
 We provide the three data sets we construct for DiskANN, NSG, and HNSW algorithms described in our paper (Figure 2 and 4), for  $n=10^6$. The data sets for NSG and HNSW only differ in their format. These three datasets are in different binary formats compatible with their respective implementations （[DiskANN code link](https://github.com/microsoft/DiskANN), [NSG code link](https://github.com/ZJULearning/nsg), [HNSW code link](https://github.com/nmslib/hnswlib)）
@@ -32,3 +34,16 @@ Point set is a numpy array of dimensions $n*d$ ($d=8$) containing $d$ dimensions
 query point set is a numpy array of dimensions $n*d$ ($n=1$, $d=8$) containing $d$ dimensions for $n$ query points.
 groundtruth is a numpy array of dimension $n*k$ ($n=1$, $k=5$) containing the id of $k$ nearest neighbor for each query.
 All three .pickle files are stored by pickle.dump() in python.
+
+## Citation
+Please cite our paper if it is useful in your work.
+```
+@misc{indyk2023worstcase,
+      title={Worst-case Performance of Popular Approximate Nearest Neighbor Search Implementations: Guarantees and Limitations}, 
+      author={Piotr Indyk and Haike Xu},
+      year={2023},
+      eprint={2310.19126},
+      archivePrefix={arXiv},
+      primaryClass={cs.DS}
+}
+```
