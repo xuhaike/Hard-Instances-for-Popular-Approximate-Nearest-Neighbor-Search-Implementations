@@ -1,4 +1,4 @@
-This repository contains the implementations of the hard instances designed in our paper [Worst-case Performance of Popular Approximate Nearest Neighbor Search Implementations: Guarantees and Limitations](https://arxiv.org/abs/2310.19126) to appear in NeurIPS 2023
+This repository contains the implementations of the hard instances designed in our paper [Worst-case Performance of Popular Approximate Nearest Neighbor Search Implementations: Guarantees and Limitations](https://arxiv.org/abs/2310.19126), which is to appear in the NeurIPS 2023 conference.
 
 # Data files for the two hard instances we present in our paper
 
